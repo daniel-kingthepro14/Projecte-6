@@ -1,16 +1,16 @@
 # Administració de Sistemes Informatics en Xarxa
 # Autor: Daniel Bes Guimera
-# Data:24/4/2025
+# Data:25/4/2025
 
 # Versió: 1.0
 
-# Descripció: demana a l'usuari dos valors per fer una suma
+# Descripció:
 
-# Especificacions d'entrada: Dos valors per a sumar-los
-print("introduieix un numero")
-a = int(input())
+# Especificacions d'entrada:
 
-print("introduieix un altre numero")
-b = int(input())
+def multiplica(a, b):
+    return a * b
 
-print(a + b)
+resultat = multiplicar(3, 4) # multiplicar no es una funcio
+                             # ja que es diu multiplica
+print(resultat)

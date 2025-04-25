@@ -1,13 +1,16 @@
 # Administració de Sistemes Informatics en Xarxa
 # Autor: Daniel Bes Guimera
-# Data:24/4/2025
+# Data:25/4/2025
 
 # Versió: 1.0
 
-# Descripció: mostra la edat introduida per l'usuari
+# Descripció:
 
-# Especificacions d'entrada: La edat
+# Especificacions d'entrada:
 
-edat = input()
+a = int(input("Número 1: ")) # recull un nombre per l'usuaro
+b = int(input("Número 2: ")) # recull un altre nombre per l'usuari
 
-print(edat)
+suma = a + b # suma els dos valors de les variables
+
+print("La suma és:", suma) # Mostra el text "La suma és" junt amb la suma

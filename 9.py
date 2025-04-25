@@ -1,18 +1,23 @@
 # Administració de Sistemes Informatics en Xarxa
 # Autor: Daniel Bes Guimera
-# Data:24/4/2025
+# Data:25/4/2025
 
 # Versió: 1.0
 
-# Descripció: Identificar si un numero es parell o imparell
+# Descripció: Indica si un nombre es positiu, negatiu o zero
 
-# Especificacions d'entrada: Un valor per a saber si es parell
+# Especificacions d'entrada: El nombre
 
-
-# Introduir un numero
-print('Introdueix un numero')
+print('Escriu un nombre')
 a = int(input())
-a = int(a)
 
-if(a % 2 == 0):print('es parell')
-else:print('es senar')
+if a < 0:
+    print('El nombre es negatiu')
+
+if a > 0:
+    print('El numero es positiu')
+
+if a == 0:
+    print('El numero es zero')
+
+print('Gracies')

@@ -8,6 +8,7 @@
 
 # Especificacions d'entrada:
 
-nom = input("Com et dius? ") # Aquesta linia demana el nom amb un text que diu Com et dius?
+def saluda():
+    print("Hola!")
 
-print("Hola", nom) # I aquesta mostra Hola i el nom especificat per l'usuari
+saluda()

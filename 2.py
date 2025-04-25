@@ -1,15 +1,19 @@
 # Administració de Sistemes Informatics en Xarxa
 # Autor: Daniel Bes Guimera
-# Data:
+# Data:25/4/2025
 
 # Versió: 1.0
 
-# Descripció: mostra la edat i l'any de naixement a partir d'una variable
+# Descripció:
 
 # Especificacions d'entrada:
 
-edat = 19
+a = 5
+b = 3
 
-anynaixement = 2006
+resultat = suma(a, b)
 
-print(edat, anynaixement)
+def suma(x, y):
+    return x + y
+
+print("Resultat:", resultat)
